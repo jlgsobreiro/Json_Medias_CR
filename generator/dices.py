@@ -10,12 +10,16 @@ def d6():
 
 
 def d8():
-    return random.uniform(0, 7)
+    return random.uniform(1, 8)
 
+def d10():
+    return random.uniform(1, 10)
 
 def d12():
     return random.uniform(1, 12)
 
-
 def d20():
     return random.uniform(1, 20)
+
+def d100():
+    return random.uniform(1, 100)
