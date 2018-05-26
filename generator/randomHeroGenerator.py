@@ -7,8 +7,7 @@ def randomHero():
     level = random.uniform(1,20)
     level = int(round(level))
 
-    classe = ["Artificer",
-              "Barbarian",
+    classe = ["Barbarian",
               "Bard",
               "Cleric",
               "Druid",
